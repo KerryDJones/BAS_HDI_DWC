@@ -1,0 +1,48 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+        "type": "shell",
+        "label": "cds watch",
+        "command": "cds",
+        "args": [
+            "watch"
+        ],
+        "group": {
+            "kind": "build",
+            "isDefault": true
+        },
+        "problemMatcher": []
+    },
+    {
+        "type": "shell",
+        "label": "cds run",
+        "command": "cds",
+        "args": [
+            "run",
+            "--with-mocks",
+            "--in-memory?"
+        ],
+        "problemMatcher": []
+    },
+    {
+        "command": "cds",
+        "label": "Build MTA based on dwc_btp_odata/mta.yaml",
+        "type": "shell",    
+        "taskType": "Build",
+        "mtaFilePath": "/home/user/projects/dwc_btp_odata/mta.yaml",
+        "buildType": "Build MTA Project"
+    },
+    {
+        "type": "deploy-hdb",
+        "modulePath": "${workspaceFolder}/gen/db",
+        "deployCommand": "npm start -- --exit",
+        "problemMatcher": [
+            "$deploy-hdb"
+        ],
+        "label": "SAP HANA: Deploy module dwc_btp_odata-db-deployer (dwc_btp_odata)"
+    }
+]
+}
