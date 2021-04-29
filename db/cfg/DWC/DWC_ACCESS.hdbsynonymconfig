@@ -1,16 +1,14 @@
 {
-  "Tank_Levels": {
-    "target": {
-        "schema": "Appgyver_DWC_SPACE_NA#I826853/DWC_ODATA_CONTAINER",
-        "object": "Tank_Levels"
+    "Tank_Levels": {
+        "target": {
+            "schema": "Appgyver_DWC_SPACE_NA#I826853/DWC_ODATA_CONTAINER",
+            "object": "Tank_Levels"
+        }
+    },
+    "TANK_LEVELS_ALL_VW": {
+        "target": {
+            "schema": "Appgyver_DWC_SPACE_NA#I826853/DWC_ODATA_CONTAINER",
+            "object": "TANK_LEVELS_ALL"
+        }
     }
-  },
-  {
-  "TANK_LEVELS_ALL_VW": {
-    "target": {
-        "schema": "Appgyver_DWC_SPACE_NA#I826853/DWC_ODATA_CONTAINER",
-        "object": "TANK_LEVELS_ALL"
-    }
-  }
-
 }
