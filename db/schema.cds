@@ -1,6 +1,5 @@
-namespace DWC;
+namespace DWC_ODATA_CONTAINER;
 
-@cds.persistence.exists
 entity![Tank_Levels]{
     key![Tank_ID]  : String(2);
        ![Volume]   : Integer;
@@ -9,7 +8,6 @@ entity![Tank_Levels]{
        ![Comments] : String(250);
 }
 
-@cds.persistence.exists
 entity![TANK_LEVELS_ALL_VW]{
     key![Tank_ID] : String(2);
        ![Volume]  : Integer;
