@@ -1,4 +1,8 @@
 {
-    "Tank_Levels": {},
-    "TANK_LEVELS_ALL_VW": {}
+  "Tank_Levels": {
+    "target": {
+      "object": "Tank_Levels"
+    }
+  },
+  "TANK_LEVELS_ALL_VW": {}
 }
