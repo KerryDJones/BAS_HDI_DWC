@@ -1,0 +1,9 @@
+{
+    "sqltools.connections": [
+        {
+            "dialect": "SQLite",
+            "database": "/home/user/projects/dwc_btp_odata/db/sqlite.db",
+            "name": "SQLite_Database"
+        }
+    ]
+}
